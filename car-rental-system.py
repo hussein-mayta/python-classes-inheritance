@@ -70,4 +70,9 @@ while option!=3:
         print(f"Updated rental price for {carBrand} {carModel}: ${car.get_rental_price_per_day()}/day")
     
     if option==2 :
+        bikeBrand=input("Enter bike brand: ")
+        bikeModel=input("Enter bike model: ")
+        bikeYear=int(input("Enter bike year: "))
+        bikePrice=float(input("Enter bike rental price per day: "))
+        bikeEngine=int(input("Enter bike engine capacity: "))
 
