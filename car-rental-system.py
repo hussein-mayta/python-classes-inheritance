@@ -64,3 +64,6 @@ while option!=3:
 
         print(f"Rental cost for {carBrand} {carModel} for {carDays} days: ${car.calculate_rental_cost(carDays)}\n")
 
+        newCarPrice = float(input("Enter new rental price per day for the car: "))
+        car.set_rental_price_per_day(newCarPrice)
+
