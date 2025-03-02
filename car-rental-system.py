@@ -50,4 +50,9 @@ option=int(input("Enter your option :"))
 while option!=3:
 
     if option==1:
-        
+        carBrand=input("Enter car brand: ")
+        carModel=input("Enter car model: ")
+        carYear=int(input("Enter car year: "))
+        carPrice=float(input("Enter car rental price per day: "))
+        carSeats=int(input("Enter car seating capacity: "))
+
