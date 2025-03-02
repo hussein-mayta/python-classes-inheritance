@@ -13,3 +13,9 @@ class Vehicle:
     
     def get_rental_price_per_day(self):
         return self.__rental_price_per_day
+    
+    def set_rental_price_per_day(self, new_price):
+        if new_price > 0:
+            self.__rental_price_per_day = new_price
+        else:
+            print("Rental price must be positive.")
