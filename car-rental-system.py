@@ -62,3 +62,5 @@ while option!=3:
 
         carDays=int(input("Enter number of days to rent the car: "))
 
+        print(f"Rental cost for {carBrand} {carModel} for {carDays} days: ${car.calculate_rental_cost(carDays)}\n")
+
