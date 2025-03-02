@@ -38,3 +38,9 @@ class Bike(Vehicle):
 
 def show_vehicle_info(vehicle):
     vehicle.display_info()
+
+print("\n==== Welcome to Mayta Vehicles ====")
+print(" \t**Menu** ")
+print(" 1 : Rent a Car ")
+print(" 2 : Rent a Bike ")
+print(" 3 : EXIT ")
