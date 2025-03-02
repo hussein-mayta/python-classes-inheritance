@@ -56,3 +56,5 @@ while option!=3:
         carPrice=float(input("Enter car rental price per day: "))
         carSeats=int(input("Enter car seating capacity: "))
 
+        car = Car(carBrand, carModel, carYear, carPrice, carSeats)
+
