@@ -78,3 +78,5 @@ while option!=3:
 
         bike = Bike(bikeBrand, bikeModel, bikeYear, bikePrice, bikeEngine)
 
+        show_vehicle_info(bike)
+
