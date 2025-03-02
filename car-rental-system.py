@@ -60,3 +60,5 @@ while option!=3:
 
         show_vehicle_info(car)
 
+        carDays=int(input("Enter number of days to rent the car: "))
+
