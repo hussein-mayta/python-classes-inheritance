@@ -84,3 +84,7 @@ while option!=3:
 
         print(f"Rental cost for {bikeBrand} {bikeModel} for {bikeDays} days: ${car.calculate_rental_cost(bikeDays)}")
 
+    option=int(input("Enter your option :"))
+
+print("EXIT")
+
