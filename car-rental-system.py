@@ -76,3 +76,5 @@ while option!=3:
         bikePrice=float(input("Enter bike rental price per day: "))
         bikeEngine=int(input("Enter bike engine capacity: "))
 
+        bike = Bike(bikeBrand, bikeModel, bikeYear, bikePrice, bikeEngine)
+
