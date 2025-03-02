@@ -58,3 +58,5 @@ while option!=3:
 
         car = Car(carBrand, carModel, carYear, carPrice, carSeats)
 
+        show_vehicle_info(car)
+
