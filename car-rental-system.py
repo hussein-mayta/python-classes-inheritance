@@ -80,3 +80,5 @@ while option!=3:
 
         show_vehicle_info(bike)
 
+        bikeDays=int(input("Enter number of days to rent the bike: "))
+
