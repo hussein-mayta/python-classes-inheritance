@@ -44,3 +44,10 @@ print(" \t**Menu** ")
 print(" 1 : Rent a Car ")
 print(" 2 : Rent a Bike ")
 print(" 3 : EXIT ")
+
+option=int(input("Enter your option :"))
+
+while option!=3:
+
+    if option==1:
+        
