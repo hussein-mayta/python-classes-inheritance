@@ -67,3 +67,5 @@ while option!=3:
         newCarPrice = float(input("Enter new rental price per day for the car: "))
         car.set_rental_price_per_day(newCarPrice)
 
+        print(f"Updated rental price for {carBrand} {carModel}: ${car.get_rental_price_per_day()}/day")
+
