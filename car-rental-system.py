@@ -10,3 +10,6 @@ class Vehicle:
 
     def calculate_rental_cost(self, days):
         return self.__rental_price_per_day * days
+    
+    def get_rental_price_per_day(self):
+        return self.__rental_price_per_day
