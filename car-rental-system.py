@@ -19,3 +19,5 @@ class Vehicle:
             self.__rental_price_per_day = new_price
         else:
             print("Rental price must be positive.")
+
+class Car(Vehicle):
